@@ -1,4 +1,3 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=l23212239/MSFP3)
 # Práctica 3 — Modelado y control del sistema musculoesquelético
 
 Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, correspondiente al programa de **Ingeniería Biomédica** del Tecnológico Nacional de México / Instituto Tecnológico de Tijuana. Esta práctica integra modelado mecánico, analogía electromecánica, formulación matemática, análisis temporal y de estabilidad, control clásico y verificación computacional.
@@ -144,6 +143,7 @@ La analogía no conserva necesariamente la topología: elementos mecánicos cone
 
 La modificación de $R$ representa el cambio de la componente viscosa. Los parámetros eléctricos son los valores utilizados para la experimentación *in silico* y no una conversión clínica directa.
 
+![Relación entre el sistema biológico, el modelo mecánico y el circuito equivalente](./Diagrama%20Biol%C3%B3gico.png)
 
 [Volver al contenido](#contenido)
 
@@ -465,8 +465,6 @@ El diagrama relaciona tres niveles de representación:
 2. **Modelo mecánico:** fuente de fuerza, amortiguador y compliancias en serie y paralelo.
 3. **Circuito equivalente:** fuentes de voltaje, resistencia y capacitores.
 
-![Relación entre el sistema biológico, el modelo mecánico y el circuito equivalente](./Diagrama%20Biol%C3%B3gico.png)
-
 La diferencia entre control y caso se representa mediante $R=100\,\Omega$ y $R=10\,\mathrm{k}\Omega$, respectivamente. Esta modificación permite estudiar el efecto dinámico de una mayor componente viscosa, pero no reproduce por sí sola la complejidad anatómica, metabólica y neural de la atrofia muscular real.
 
 ### Limitaciones fisiológicas
@@ -504,7 +502,7 @@ El aumento de $R$ desplaza el polo hacia el origen y ralentiza la respuesta sin 
 | Figura exportada por MATLAB/Simulink | [`senal_matlab.pdf`](./senal_matlab.pdf) |
 | Figura exportada por Python | [`Impulso_python.pdf`](./Impulso_python.pdf) |
 | Evidencia de sintonización | [`Ganancias.jpeg`](./Ganancias.jpeg) |
-| Análisis matemático manuscrito | [`AM3.pdf`](./AM3.pdf) |
+| Análisis matemático manuscrito | [`Análisis matemático.pdf`](./An%C3%A1lisis%20matem%C3%A1tico.pdf) |
 
 ### Verificación cruzada
 
@@ -612,7 +610,7 @@ La entrega puede organizarse de la siguiente manera:
 ├── Trejo23212239.pdf          # Exportación del cuaderno
 ├── Trejo23212239.py           # Implementación Python
 ├── sistema.slx                # Modelo Simulink/Simscape
-├── AM3.pdf                    # Análisis matemático por superposición
+├── Análisis matemático.pdf    # Análisis matemático por superposición
 ├── Diagrama Biológico.png     # Diagrama fisiológico, mecánico y eléctrico
 ├── Ganancias.jpeg             # Evidencia de sintonización del PI
 ├── senal_matlab.pdf           # Resultado MATLAB/Simulink
