@@ -143,7 +143,6 @@ La analogía no conserva necesariamente la topología: elementos mecánicos cone
 
 La modificación de $R$ representa el cambio de la componente viscosa. Los parámetros eléctricos son los valores utilizados para la experimentación *in silico* y no una conversión clínica directa.
 
-![Relación entre el sistema biológico, el modelo mecánico y el circuito equivalente](./Diagrama%20Biol%C3%B3gico.png)
 
 [Volver al contenido](#contenido)
 
@@ -464,6 +463,8 @@ El diagrama relaciona tres niveles de representación:
 1. **Sistema biológico:** músculo, tendón, elemento contráctil y desplazamiento.
 2. **Modelo mecánico:** fuente de fuerza, amortiguador y compliancias en serie y paralelo.
 3. **Circuito equivalente:** fuentes de voltaje, resistencia y capacitores.
+
+![Relación entre el sistema biológico, el modelo mecánico y el circuito equivalente](./Diagrama%20Biol%C3%B3gico.png)
 
 La diferencia entre control y caso se representa mediante $R=100\,\Omega$ y $R=10\,\mathrm{k}\Omega$, respectivamente. Esta modificación permite estudiar el efecto dinámico de una mayor componente viscosa, pero no reproduce por sí sola la complejidad anatómica, metabólica y neural de la atrofia muscular real.
 
